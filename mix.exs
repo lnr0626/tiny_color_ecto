@@ -32,7 +32,7 @@ defmodule TinyColorEcto.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:ecto, "~> 3.4.3"},
+      {:ecto, "~> 3.4"},
       {:tiny_color, "~> 0.1"},
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false}
     ]
