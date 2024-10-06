@@ -4,8 +4,8 @@ defmodule TinyColorEcto.MixProject do
   def project do
     [
       app: :tiny_color_ecto,
-      version: "0.1.1",
-      elixir: "~> 1.11",
+      version: "0.2.0",
+      elixir: "~> 1.14",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
       description: """
@@ -33,7 +33,7 @@ defmodule TinyColorEcto.MixProject do
   defp deps do
     [
       {:ecto, "~> 3.4"},
-      {:tiny_color, "~> 0.1"},
+      {:tiny_color, ">= 0.1.0"},
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false}
     ]
   end
